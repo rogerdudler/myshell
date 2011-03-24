@@ -22,7 +22,11 @@ Ideas
 Commands
 ----
 
-### Selecting a database
+### Show a list of databases
+
+    db
+
+### Select a database
 
     db <database>
 
