@@ -13,6 +13,11 @@ Features
 * Super-fast edit mode (See commands).
 * Basic database/table statistics
 
+Ideas
+----
+
+* Compare datasets with the _compare_ command
+
 Commands
 ----
 
