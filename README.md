@@ -1,7 +1,9 @@
 MyShell
 =======
 
-A web-based MySQL administration tool for Hackers. The main goal of MyShell is to provide a tool for web professionals to administrate their MySQL database as fast as possible. The minimalistic frontend of MyShell initially shows only a single command input field to get you started.
+A web-based MySQL administration tool for Hackers. 
+
+The main goal of MyShell is to provide a tool for web professionals to administrate their MySQL database as fast as possible. The minimalistic frontend of MyShell initially shows only a single command input field to get you started.
 
 Features
 ----
