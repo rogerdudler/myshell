@@ -8,7 +8,7 @@ Features
 
 * Command input with tab-based autocompletion
 * Basic MySQL administration features (SELECT, INSERT, DELETE)
-* Simple edit mode, just type edit <table> <primarykey>
+* Super-fast edit mode (See commands).
 * Basic database/table statistics
 
 Commands
