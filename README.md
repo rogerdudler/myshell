@@ -10,8 +10,9 @@ Features
 
 * Command input with tab-based autocompletion
 * Basic MySQL administration features (SELECT, INSERT, DELETE)
-* Super-fast edit mode (See commands).
+* Super-fast edit mode (Just type _edit_ _table_ _primarykey_).
 * Basic database/table statistics
+* Batch-edit mode (use _data_ command and then type _edit_ *)
 
 Ideas
 ----
