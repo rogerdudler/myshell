@@ -1,0 +1,170 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #333333;
+	margin: 10px;
+}
+
+body, td, input, select, textarea, label {
+	font-size: 12px;
+    font-family: monospace;
+}
+
+form {
+	margin: 0px;
+}
+
+#content {
+	background-color: #1E1E1E;
+	padding: 20px;
+	-webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+}
+
+#command {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#EEE));
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+}
+
+#command label {
+	float: left;
+	color: #666;
+	text-shadow: 1px 1px 0px white;
+	padding: 10px;
+	width: 55px;
+	font-size: 14px;
+}
+
+#command input {
+	float: left;
+	color: black;
+	border: none;
+	background: none;
+	display: block;
+	margin: 0;
+	padding: 10px;
+	width: 500px;
+	font-size: 14px;
+}
+
+#command input:focus {
+	outline: none;
+}
+
+#status {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#EEE));
+    color: #999;
+    font-family: monospace;
+    text-shadow: 1px 1px 0px white;
+    display: none;
+}
+
+#status div {
+	padding: 10px;
+}
+
+#status .error {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a94c4c), to(#8f2f2f));
+	color: white;
+	text-shadow: 1px 1px 0px #5c1a1a;
+}
+
+#status .ok {
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#577b25), to(#678839));
+    color: white;
+    text-shadow: 1px 1px 0px #415c1a;
+}
+
+#loading {
+	float: right;
+	margin: 6px 5px 5px 5px;
+	padding: 6px;
+	background-color: #f3cf06;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 11px;
+	color: #000;
+	text-shadow: 1px 1px 0px white;
+}
+
+.datatable {
+}
+
+.datatable .header {
+	border-bottom: 1px solid #4b4b4b;
+}
+
+.datatable .header .column {
+	color: #999;
+}
+
+.datatable .header .primarykey {
+	color: #FFC600;
+}
+
+.row {
+	border-bottom: 1px solid #292929;
+	margin-bottom: 1px;
+}
+
+.row .column {
+	float: left;
+	padding: 3px 6px;
+	color: #FFF;
+	width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid #333333;
+}
+
+.row .integer {
+	color: #ddd;
+	text-align: right;
+}
+
+.row .null {
+	color: #555;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.row-editor {
+}
+
+.row-editor .column {
+	border-bottom: 1px solid #333333;
+	margin-bottom: 2px;
+}
+
+.row-editor .column .button {
+	margin: 5px;
+}
+
+.row-editor label {
+	float: left;
+	width: 200px;
+	padding: 3px 6px;
+	color: #BBB;
+}
+
+.row-editor .value {
+	float: left;
+}
+
+.row-editor .value input {
+	background: none;
+	background-color: #333333;
+	border: none;
+	margin: 0;
+	padding: 3px 6px;
+	width: 350px;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+}
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+ <title>MySQL IDE</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="author" content="Roger Dudler">
+ <meta http-equiv="content-language" content="en">
+ <link href="static/css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+ <script type="text/javascript" src="static/js/jquery-1.5.1.min.js"></script>
+ <script type="text/javascript" src="static/js/jquery.address.js"></script>
+ <script type="text/javascript" src="static/js/application.js"></script>
+</head>
+<body>
+<div id="command">
+ <label for="command-input">Command: </label>
+ <input id="command-input" type="text" spellcheck="false" />
+ <div id="loading">Busy</div>
+ <div class="clear"></div>
+</div>
+<div id="status">
+ <div id="message">Ready</div>
+</div>
+<form method="post" id="content-form">
+<div id="content"></div>
+</form>
+<script type="text/javascript">
+init();
+</script>
+</body>
+</html>
