@@ -1,3 +1,8 @@
+MyShell
+=======
+
+A web-based MySQL administration tool for Hackers. Completely controllable by keyboard.
+
 Commands
 ----
 
